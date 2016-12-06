@@ -9,14 +9,6 @@ def makeallsubsets(x): #Use this code if you want all subsets in a list, which i
     		l.append(x[i:i+j]) #There's going to be a lot to append
     return l
 
-def crossCount(x): #Don't use this code, it is inefficient in terms of time and memory
-    k=0
-    for i in range (0,len(makeallsubsets(x))):
-    	if startsatend((makeallsubsets(x)[i])) == True:
-    		k=k+1
-    return k
-
-#vv USE THIS CODE startsatend(x) and crossCount(x) is only kept because I don't like deleting things
 
 
 def makeallsubsetsAndCount(x):
