@@ -1,10 +1,7 @@
-def startsatend(x):#I'm sure I can remove the ifs but I'm not sure how
+def startsatend(x):#I know I can make it one line, but I don't care
     a=x.count('U')-x.count('D')
     b=x.count('R')-x.count('L')
-    if a==0 and b==0:
-    	return True
-    else:
-    	return False
+    return a==0 and b==0:
 def makeallsubsets(x): #Use this code if you want all subsets in a list, which is not needed a lot
     l = []
     for j in range (1,len(x)+1):
