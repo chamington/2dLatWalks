@@ -1,4 +1,4 @@
-digits = 'UDLR'
+digits = 'LDUR'
 
 def nthWalk(n):
     result = []
